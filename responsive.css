@@ -1,1 +1,38 @@
+@media (max-width:1000px) {
+    .dish-list{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
+    .dish-list a{
+        width: 100%;
+        margin-bottom: 50px;
+        flex: auto;
+    }
+    .dish-list p{
+        text-align: center;
+        
+    }
+    
+
+}
+
+@media (max-width:670px) {
+    .dish-list{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .dish-list a{
+        width: 100%;
+        margin-bottom: 50px;
+        flex: auto;
+    }
+
+    .dish-list p{
+        text-align: center;
+        font-size: 40px;
+    }
+
+   
+}
