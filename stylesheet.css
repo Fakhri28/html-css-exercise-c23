@@ -1,1 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+.dish-list img{
+   width: 370px;
+    height: 290px;
+}
+
+.dish-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dish-list a{
+    flex: auto;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    border: 5px solid transparent;
+}
+
+
+.dish-list p{
+    text-align: center;
+    font-size: 40px;
+    color: chocolate;
+}
+
+.heading{
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    color: chocolate;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.dish-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  wrapper a {
+    border: 5px solid transparent;
+    width: 500px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.dish-list a:before {
+    transition: all .6s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333333;
+    transform: scale(0);
+    border-radius: 5px;
+}
+.dish-list a:hover:before {
+    opacity: .2;
+    transform: scale(1);
+}
+.dish-list a:after {
+    transition: all .7s ease .2s;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: #252525;
+    opacity: 0;
+    transform: scale(0);
+}
+.dish-list a:hover:after {
+    opacity: .35;
+    transform: scale(1);
+    border-radius: 5px;
+}
+
+
+
+
+
 
