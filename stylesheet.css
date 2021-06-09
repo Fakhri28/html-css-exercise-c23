@@ -39,7 +39,7 @@
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
-  }
+ }
 
 .dish-wrapper {
     padding-bottom: 80px;
@@ -55,7 +55,7 @@
     float: left;
     position: relative;
     cursor: pointer;
-}
+ }
 
 .dish-list a:before {
     transition: all .6s ease;
@@ -69,10 +69,12 @@
     transform: scale(0);
     border-radius: 5px;
 }
+
 .dish-list a:hover:before {
     opacity: .2;
     transform: scale(1);
 }
+
 .dish-list a:after {
     transition: all .7s ease .2s;
     content: "";
@@ -87,6 +89,7 @@
     opacity: 0;
     transform: scale(0);
 }
+
 .dish-list a:hover:after {
     opacity: .35;
     transform: scale(1);
@@ -99,7 +102,7 @@
   text-align: center;
 }
 
-.bungkus{
+.bungkus.bungkus-atas{
   display: flex;
 }
 
@@ -189,6 +192,68 @@ p{
   background-color: rgba(150, 75, 0, 0.3);
 }
 
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 50px;
+  width: 50%;
+  /*vertical-align: center;*/
+  margin-top: 5px;*/
+  /*float: center;*/
+}
+
+.logo-text{
+  line-height: 65px;
+  padding: 0 5px;
+  color: white;
+  display: block;
+  float: right;
+}
+
+.bungkus-atas {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.clear {
+  clear: left;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none !important;
+}
 
 
 
