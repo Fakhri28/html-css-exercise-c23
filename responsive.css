@@ -51,4 +51,15 @@
     display: block;
     }
    
+    .header-right {
+    display: none;
+    }
+  
+    .menu-icon {
+    display: block !important;
+    }
+    
+    .logo-text.kolom{
+    display: block;
+  }
 }
