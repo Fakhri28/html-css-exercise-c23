@@ -272,7 +272,7 @@ footer {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url("./img/1page.png");
+  background-image: url("./images/1page.png");
   background-size: cover;
   color: orangered;
   text-align: center;
@@ -292,7 +292,6 @@ footer {
 }
 
 .teks {
-  /*opacity: 0.7;*/
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
@@ -301,7 +300,6 @@ footer {
 }
 
 .teks2 {
-  /*opacity: 0;*/
   font-size: 30px;
   margin-bottom: 3px;
   text-shadow: 3px 3px 2px black;
